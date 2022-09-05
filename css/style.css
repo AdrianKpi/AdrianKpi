@@ -19,7 +19,9 @@
 .header_area .main-menu .navbar{
     padding: 1rem 20rem ;
 }
-
+.title-text:nth-child(2){
+    color:white;
+}
 .header_area .main-menu .nav-item .nav-link{
     font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
@@ -222,6 +224,9 @@
     border: none;
     font: normal 500 16px/130px var(--roboto);
     text-transform: uppercase;
+}
+.button.primary-button{
+    color:white;
 }
 
 .site-main .project-area .button-group button + button{
