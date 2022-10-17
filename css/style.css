@@ -195,10 +195,11 @@
     font-size: 35px;
 }
 
-.site-main > .services-area .services{
+.site-main > .services-area .services img{
     background: rgba(248, 252, 253, 0.973);
     padding: 2rem 0;
     width: 16rem;
+    height: 16rem;
     margin: 5rem .5rem;
     transition: box-shadow .7s ease;
 }
