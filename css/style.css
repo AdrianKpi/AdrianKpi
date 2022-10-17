@@ -203,6 +203,16 @@
     transition: box-shadow .7s ease;
 }
 
+.site-main > .services-area .services img {
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    height: 10 rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+
 
 .site-main > .services-area .services:hover{
     box-shadow: var(--box-shadow);
