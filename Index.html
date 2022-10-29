@@ -354,34 +354,56 @@
         <section class="subscribe-us-area">
             <div class="container subscribe">
                 <div class="row">
-                    <div class="col-lg-12 text-center subscribe-title">
+                    <div class="col-lg-4 d-flex justify-content-start align-items-center">
+                        <ul class="nav flex-column pl-5 ml-3">
+                            <li class="nav-item d-flex ">
+                               <p ><i class="fa fa-user"></i> <span class="text-warning" >Name: </span>Adrian</p>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link disabled">Disabled</a>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="col-lg-8 text-center subscribe-title">
                         <h4 class="text-uppercase">Contact Me!</h4>
                         <p class="para">Please enter your contact details.</p>
+                        <div class="d-sm-flex justify-content-center">
+                            <form >
+                                <div class="row d-flex flex-column ">
+                                    <form name="contact" method="POST" data-netlify="true">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-sm-12">
+                                                <label style="text-align: left;" class="d-block px-2 py-1 text-light"> Your Name: </label>
+                                                <input type="text" class="form-control" name="name" placeholder="John Doe" />
+                                            </div>
+                                            <div class="col-lg-6 col-sm-12">
+                                                <label style="text-align: left;" class="d-block px-2 py-1 text-light"> Your Email:</label>
+                                                <input type="email" class="form-control" name="email" placeholder="JohnDoe@gmail.com" />
+                                            </div>
+                                        </div>
+                                                                          
+                                        <div>
+                                          <label style="text-align: left;" class="d-block px-2 py-1 text-light">  Inquiries:</label>
+                                          <textarea name="message" class="form-control mb-3" rows="5" cols="60" style="resize: none;" placeholder="Contact us for your busniss inquiry" ></textarea>
+                                        </div>
+
+                                          <button type="submit" class="m-auto btn btn-warning w-50">Send</button>
+                                
+                                       
+                                      </form>
+                                      
+                                      
+                                    </div>
+                                </div>
                     </div>
+                    
                 </div>
-                <div class="d-sm-flex justify-content-center">
-                    <form class="w-50">
-                        <div class="row d-flex flex-row flex-wrap">
-                            <form name="contact" method="POST" data-netlify="true">
-                                <p>
-                                  <label>Your Name: <input type="text" name="name" /></label>
-                                </p>
-                                <p>
-                                  <label>Your Email: <input type="email" name="email" /></label>
-                                </p>
-                              
-                                <p>
-                                  <label>Message: <textarea name="message"></textarea></label>
-                                </p>
-                                <p>
-                                  <button type="submit">Send</button>
-                                </p>
-                               
-                              </form>
-                              
-                              
-                            </div>
-                        </div>
                     </form>
                 </div>
             </div>
@@ -400,9 +422,9 @@
                 </div>
                 <div class="social text-center">
                     <h5 class="text-uppercase">Follow me</h5>
-                    <a href="https://www.facebook.com/jingrong.kwan"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.linkedin.com/in/kwan-jing-rong-b27801248/"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/AdrianKpi"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/jingrong.kwan"><i class="fab fa-facebook" style="color: rgb(32, 32, 32);font-size: 36px"></i></a>
+                    <a href="https://www.linkedin.com/in/kwan-jing-rong-b27801248/"><i class="fab fa-linkedin" style="color: rgb(32, 32, 32);font-size: 36px"></i></a>
+                    <a href="https://github.com/AdrianKpi"><i class="fab fa-github " style="color: rgb(32, 32, 32);font-size: 36px"></i></a>
                     
                 </div>
                 <div class="copyrights text-center">

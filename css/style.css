@@ -169,6 +169,8 @@
     font: normal bold 84px/40px var(--roboto);
     color: var(--primary-color2);
     z-index: 2;
+    line-height: 70px;
+    margin-left: 64px;
 }
 
 .site-main .brand-area .experience-area .years-area h2 > span{
@@ -294,7 +296,7 @@
 
 .site-main .subscribe-us-area .subscribe{
     background: url(../img/subscribe-bg.png) no-repeat;
-    padding: 10rem 0;
+    padding: 2rem 0;
     margin: 3rem auto;
 }
 
@@ -305,7 +307,7 @@
 
 .site-main .subscribe-us-area .subscribe .subscribe-title p{
     color: whitesmoke;
-    padding: 1rem 4rem;
+    padding: 1rem 1.5rem;
 }
 
 .site-main .subscribe-us-area .subscribe form .input-textbox input{
